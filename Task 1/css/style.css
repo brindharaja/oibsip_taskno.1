@@ -1,0 +1,162 @@
+:root{
+    --white:#9A3B3B;
+    --pink:#072227;
+    --rose:#a595ef;
+    --sandal:#EFD595;
+}
+body,h2{
+    margin:0;
+    font-family:Arial, Helvetica, sans-serif
+}
+.landing{
+    background-image: url('/Task 1/media/design.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+header a{
+    text-decoration: none;
+    color:rgb(48, 5, 42);
+    font-weight: bolder;
+    min-width: 100px;
+}
+header{
+    display:flex;
+    padding: 1em;
+    flex-wrap: wrap;
+}
+#logo{
+    flex:3;
+    font-size: 1.8em;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder; 
+    color: rgb(43, 40, 40);
+}
+nav{
+    flex:2;
+    display:flex;
+    align-items: center;
+}
+nav a{
+    flex:1;
+}
+nav a:hover{
+    color:rgb(175, 175, 207);
+}
+.maintext{
+    display:flex;
+    flex-direction: column;
+    height:50vh;
+    justify-content: center;
+    padding: 2em;
+}
+.t1{
+    color:var(--pink);
+    font-size: 3.5em;
+    font-weight: bold;
+    font-family: brush script MT,cursive;
+}
+.t2{
+    color:rgba(255, 255, 255, 0.87);
+    font-weight: bold;
+    font-size: 1.2em;
+}
+.maintext div{
+    margin-top: .75em;
+}
+.maintext button{
+    width: 20vh;
+    margin-top: 2em;
+    border-radius: 10px;
+    padding: .7em;
+    background-color:rgb(204, 185, 255);
+    color:rgb(13, 8, 46);
+    font-weight: bold;
+    border: 1px solid rgb(204, 185, 255);
+}
+.designs{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(185px,1fr));
+    font: 1em serif;
+    color:rgb(2, 1, 51);
+}
+.designs th{
+    color: rgb(97, 55, 55);
+    font-size: 1.4em;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+}
+.locations{
+    background-image:url('/Task 1/media/locations.jpg') ;
+    background-size: cover;
+    background-position: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    font: 1em serif;
+    color:rgb(0, 0, 22);
+    display: flex;
+    flex-wrap: wrap;
+    font-weight: bold;
+}
+.locations h3{
+    color: rgb(143, 0, 0);
+    font-size: 1.2em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#designing,#locheading{
+    background-color:rgb(253, 239, 221);
+    font-size: 2.5em;
+    color:rgb(25, 51, 68);
+    display:flex;
+    justify-content: center;
+    padding: 0.1em;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder; 
+}
+#locheading{
+    background-color:rgb(255, 214, 214);
+    color: rgb(70, 67, 67);
+    font-weight:bold;
+    font-size:30px;
+}
+table{
+    width: 100%;
+    padding: 1em;
+}
+.designs tr{
+    display: flex;
+    margin-top:.8em;
+}
+.locations div{
+    flex: 1;
+    padding: 1em;
+    min-width: 163px;
+}
+footer{
+    background-color: aliceblue;
+    color: #3b0505;
+    padding: .25em 1em;
+}
+#share{
+    color: #0e0341;
+    font-size: 1.2em;
+    font-weight: bold;
+    font-family: cursive;
+}
+#overview{
+    background-color:rgb(216, 216, 216);
+    padding: 1em;
+    text-align: justify;
+    padding: 10px;
+    font: 1.1em serif;
+    color: rgb(0, 0, 34);
+}
+#overview h2{
+    display:flex;
+    justify-content: center;
+    padding: 0.1em;
+    font-size: 2.5em;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder; 
+    color: rgb(70, 15, 15);
+    font-weight: bolder;
+}
